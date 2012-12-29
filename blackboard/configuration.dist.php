@@ -210,85 +210,85 @@ final class JConfig
 	 * @var string
 	 */
 	public $courseServiceUsername = '';
-    public $courseServicePassword = '';
+	public $courseServicePassword = '';
 	public $courseServiceTestUsername = '';
-    public $courseServiceTestPassword = '';
+	public $courseServiceTestPassword = '';
 
-    /**
+	/**
 	 * Course Membership Username/Password Section:
 	 *
 	 * @var string
 	 */
 	public $courseMembershipServiceUsername = '';
-    public $courseMembershipServicePassword = '';
+	public $courseMembershipServicePassword = '';
 	public $courseMembershipServiceTestUsername = '';
-    public $courseMembershipServiceTestPassword = '';
+	public $courseMembershipServiceTestPassword = '';
 
-    /**
+	/**
 	 * Course Category Username/Password Section:
 	 *
 	 * @var string
 	 */
 	public $courseCategoryServiceUsername = '';
-    public $courseCategoryServicePassword = '';
+	public $courseCategoryServicePassword = '';
 	public $courseCategoryServiceTestUsername = '';
-    public $courseCategoryServiceTestPassword = '';
+	public $courseCategoryServiceTestPassword = '';
 
-    /**
+	/**
 	 * Course Category Membership Username/Password Section:
 	 *
 	 * @var string
 	 */
 	public $courseCategoryMembershipServiceUsername = '';
-    public $courseCategoryMembershipServicePassword = '';
+	public $courseCategoryMembershipServicePassword = '';
 	public $courseCategoryMembershipServiceTestUsername = '';
-    public $courseCategoryMembershipServiceTestPassword = '';
+	public $courseCategoryMembershipServiceTestPassword = '';
 
-    /**
+	/**
 	 * Person Username/Password Section:
 	 *
 	 * @var string
 	 */
 	public $personServiceUsername = '';
-    public $personServicePassword = '';
+	public $personServicePassword = '';
 	public $personServiceTestUsername = '';
-    public $personServiceTestPassword = '';
+	public $personServiceTestPassword = '';
 
-    /**
+	/**
 	 * Term Username/Password Section:
 	 *
 	 * @var string
 	 */
 	public $termServiceUsername = '';
-    public $termServicePassword = '';
+	public $termServicePassword = '';
 	public $termServiceTestUsername = '';
-    public $termServiceTestPassword = '';
+	public $termServiceTestPassword = '';
 
-    /**
-    * Email Notification Information Section:
-    */
+	/**
+	* Email Notification Information Section:
+	*/
 
-    /**
-    * From Email for Notifications
-    *
-    * @var string
-    */
+	/**
+	* From Email for Notifications
+	*
+	* @var string
+	*/
 	public $notificationFromEmail = 'test@example.com';
 
 	/**
-    * From Name for Notifications
-    *
-    * @var string
-    */
+	* From Name for Notifications
+	*
+	* @var string
+	*/
 	public $notificationFromName = 'John Doe';
 
 	/**
-    * To Email(s) for Notifications
-    *
-    * Just separate multiple email address by commas
-    *
-    * @var string
-    */
+	* To Email(s) for Notifications
+	*
+	* Just separate multiple email address by commas
+	*
+	* @var string
+	*/
 	public $notificationToEmail = 'test@example.com';
 
 	/**
