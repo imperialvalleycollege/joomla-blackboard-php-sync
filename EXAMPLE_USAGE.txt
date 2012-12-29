@@ -1,0 +1,25 @@
+Linux Examples:
+/usr/bin/php /var/www/vhosts/example.com/blackboard/term.php --action sync-and-send
+/usr/bin/php /var/www/vhosts/example.com/blackboard/person.php --termcode 201320,201322 --action sync-and-send
+/usr/bin/php /var/www/vhosts/example.com/blackboard/course.php --termcode 201320,201322 --action sync-and-send
+/usr/bin/php /var/www/vhosts/example.com/blackboard/coursemembership.php --termcode 201320,201322 --action sync-and-send
+/usr/bin/php /var/www/vhosts/example.com/blackboard/coursecategory.php --action sync-and-send
+/usr/bin/php /var/www/vhosts/example.com/blackboard/coursecategorymembership.php --action sync-and-send
+
+Merge/Unmerge Linux Examples:
+/usr/bin/php /var/www/vhosts/example.com/blackboard/course.php --termcode 201320 --action merge --crns 20764,20762
+/usr/bin/php /var/www/vhosts/example.com/blackboard/course.php --termcode 201320 --action unmerge --crns 20764
+
+------------
+
+Windows Examples:
+C:\xampp\php\php C:\xampp\htdocs\blackboard\term.php --action sync-and-send
+C:\xampp\php\php C:\xampp\htdocs\blackboard\person.php --termcode 201320,201322 --action sync-and-send
+C:\xampp\php\php C:\xampp\htdocs\blackboard\course.php --termcode 201320,201322 --action sync-and-send
+C:\xampp\php\php C:\xampp\htdocs\blackboard\coursemembership.php --termcode 201320,201322 --action sync-and-send
+C:\xampp\php\php C:\xampp\htdocs\blackboard\coursecategory.php --action sync-and-send
+C:\xampp\php\php C:\xampp\htdocs\blackboard\coursecategorymembership.php --action sync-and-send
+
+Merge/Unmerge Windows Examples:
+C:\xampp\php\php C:\xampp\htdocs\blackboard\course.php --termcode 201320 --action merge --crns 20764,20762
+C:\xampp\php\php C:\xampp\htdocs\blackboard\course.php --termcode 201320 --action unmerge --crns 20764
